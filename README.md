@@ -24,18 +24,14 @@ gulp正是通过流和代码优于配置的策略来尽量简化任务编写的�
 
  先初始化项目，npm init, 增加package.json
 
-
-2
-npm install --save-dev gulp
-
- npm i -g gulp	 全局装 以便后续使用gulp命令。
-
+2 npm install --save-dev gulp      npm i -g gulp	 全局装 以便后续使用gulp命令。
 
 3 在项目根目录下创建一个名为 gulpfile.js 的文件
 
-4 gulp.task('hello', function () {
-   console.log('您好');
-});
+4 
+  gulp.task('hello', function () {
+     console.log('您好');
+  });
 那么就可以在命令行 gulp taskName： 如 gulp hello 就会在命令行输出 您好
 不输入任务名称的话会默认找default任务，找不到会报错
 
