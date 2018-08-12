@@ -43,10 +43,10 @@ npm install --save-dev gulp
  这会让你很容易观察gulp的所有任务。
 
 6  四个常用API：
-gulp.task(),
-gulp.src()
-gulp.dest()
-gulp.watch()
+gulp.task(), // 建立任务
+gulp.src()   // 要操作的文件路径
+gulp.dest()  // 生成的文件路径
+gulp.watch() // 监听的文件路径，参数可以为回调函数或者是任务
 
 7 常用的插件：
 编译 Sass：gulp-sass
